@@ -52,7 +52,7 @@ public class OrderChromeTest {
         two.fillWhen("01.03.2023");
         two.chooseRentPeriod2days();
         two.chooseColorGray();
-        two.fillComment("Позвоните мне");
+        two.fillComment("Позвоните мне.");
         two.clickOrder();
         two.clickYes();
         Assert.assertTrue(two.isImageSuccessDisplayed());

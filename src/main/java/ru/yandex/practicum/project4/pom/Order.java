@@ -96,7 +96,6 @@ public class Order {
     public void clickYes() {
         driver.findElement(BUTTON_YES).click();
     }
-
     public boolean isImageSuccessDisplayed() {
         return driver.findElement(SUCCESS_TEXT).isDisplayed();
     }
