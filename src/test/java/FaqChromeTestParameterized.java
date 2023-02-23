@@ -8,6 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.junit.Test;
 
+
 @RunWith(Parameterized.class)
 public class FaqChromeTestParameterized {
         private static final String PAGE_URL = "https://qa-scooter.praktikum-services.ru/";

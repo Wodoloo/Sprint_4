@@ -56,5 +56,6 @@ public class OrderChromeTest {
         two.clickOrder();
         two.clickYes();
         Assert.assertTrue(two.isImageSuccessDisplayed());
+
     }
 }
