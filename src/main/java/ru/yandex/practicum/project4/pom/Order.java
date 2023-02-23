@@ -81,6 +81,7 @@ public class Order {
         driver.findElement(DROPDOWN_RENT_PERIOD).click();
         driver.findElement(RENT_PERIOD_TWO_DAYS).click();
     }
+
     public void chooseColorBlack() {
         driver.findElement(CHECKBOX_COLOUR_BLACK).click();
     }
