@@ -14,13 +14,11 @@ public class FaqChromeTestParameterized {
     private final By QUESTION;
     private final By ANSWER;
     private final String expected;
-
         public FaqChromeTestParameterized(By QUESTION, By ANSWER, String expected) {
                 this.QUESTION = QUESTION;
                 this.ANSWER = ANSWER;
                 this.expected = expected;
         }
-
         @Parameterized.Parameters
         public static Object[][] getCredentials() {
             return new Object[][] {
